@@ -26,7 +26,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env: 
             - name: FOOBAR
-              value: "8126"
+              value: "1234"
           ports:
             - name: http
               containerPort: 80
